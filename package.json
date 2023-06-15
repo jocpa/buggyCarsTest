@@ -1,0 +1,14 @@
+{
+  "name": "buggycars",
+  "version": "1.0.0",
+  "description": "Pruebas al sitio de buggy cars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jocpa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  }
+}
