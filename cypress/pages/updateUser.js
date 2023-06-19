@@ -3,6 +3,7 @@ class updateUser {
     elements = {
         usernameInput: () => cy.get('.input-sm'),
         passwordInput: () => cy.get('[name="password"]'),
+        loginBtn: () => cy.get('.btn-success'),
         profileBtn: () => cy.get(':nth-child(2) > .nav-link'),
         firstName: () => cy.get('#firstName'),
         lastName: () => cy.get('#lastName'),
@@ -23,6 +24,9 @@ class updateUser {
     passwordInput(pass) {
         this.elements.passwordInput().type(pass)
     }
+    clickLoginBtn() {
+        this.elements.loginBtn().click()
+    }
     clickProfileBtn() {
         this.elements.profileBtn().click()
     }
@@ -33,7 +37,7 @@ class updateUser {
         this.elements.lastName().type(lastName)
     }
     selectGender(value) {
-        this.elements.selectGender().select(value)
+        this.elements.selectGender().type(value)
     }
     inputAge(age) {
         this.elements.age().type(age)
