@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test-chrome": "cypress run --spec cypress/e2e/ --browser chrome"
+    "test-chrome": "cypress run --spec cypress/e2e/ --browser chrome",
+    "test-allure": "cypress run --spec cypress/e2e/ --browser chrome --env allure=true"
   },
   "author": "jocpa",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
     "cypress": "^12.14.0",
     "cypress-mochawesome-reporter": "^3.5.1"
   }
