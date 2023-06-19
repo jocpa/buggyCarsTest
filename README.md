@@ -4,7 +4,5 @@ En esta repositorio se encuentran las pruebas automatizadas a sitio de [Buggy Ca
 ## Como realizar las pruebas
 1. Descargar este repositorio e instalar las depedencias con __npm install__
 2. Para correr la suite de pruebas usar el comando __npm run test-chrome__
-3. Para ver los resultados en reportes detallados html usar los comandos:
-    * test-allure
-    * allure:report
+3. Para ver los resultados en reportes html detallados con allure reports html usar el comando:
     * allure open
