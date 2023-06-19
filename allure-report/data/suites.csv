@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 19 10:05:42 CST 2023","Mon Jun 19 10:05:58 CST 2023","15799","","Actualizar perfil","","","","Debe actualizar perfil correctamente",""
+"passed","Mon Jun 19 10:05:09 CST 2023","Mon Jun 19 10:05:19 CST 2023","10341","","Registrar usuario","","","","Debe registrar un usuario llenando todos los campos exitosamente",""
+"passed","Mon Jun 19 10:05:32 CST 2023","Mon Jun 19 10:05:36 CST 2023","3408","","Prueba de humo Buggy cars","","","","Deberia cargar la pagina correctamente",""
+"passed","Mon Jun 19 10:05:19 CST 2023","Mon Jun 19 10:05:26 CST 2023","6710","","Registrar usuario","","","","Registrar usuario con datos ya antes creados",""
