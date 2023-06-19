@@ -9,7 +9,8 @@ class registerUser {
         inputLastName: () => cy.get('#lastName'),
         inputPassword: () => cy.get('#password'),
         confirmPassword: () => cy.get('#confirmPassword'),
-        defaultBtn: () => cy.get('.btn-default')
+        defaultBtn: () => cy.get('.btn-default'),
+        alertText:() => cy.get('.result')
     }
 
     clickRegisterBtn() {
