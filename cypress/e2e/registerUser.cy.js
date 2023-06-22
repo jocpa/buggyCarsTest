@@ -11,7 +11,7 @@ describe('Registrar usuario', () => {
 
     it('Debe registrar un usuario llenando todos los campos exitosamente', () => {
         registerUser.elements.registerText().should('exist')
-        registerUser.inputLogin(`jparker${Math.random()}`)
+        registerUser.inputLogin(`jparker${Math.random()*100}`)
         registerUser.inputFirsName('Peter')
         registerUser.inputLastName('Parker')
         registerUser.inputPassword('Ilove_youMJ1')
